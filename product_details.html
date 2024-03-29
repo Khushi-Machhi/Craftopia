@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Pics/icon.png">
+    <title>Product Details</title>
+
+    <style>
+        .product-details{
+            height: 95%;
+            width: 70%;
+            background-color: rgb(244, 192, 201);
+            border: 0.1rem solid rgb(245, 135, 153);
+            margin-top: 3%;
+            margin-left: 15%;
+            display: flex;
+            padding: 2%;
+        }
+        #details{
+            margin-left: 3%;
+        }
+        #add-to-cart{
+            height: 2rem;
+            margin-top: 5%;
+            font-weight: bold;
+            background-color: rgb(237, 222, 222);
+            border: 0.1rem solid rgb(245, 135, 153);
+        }
+        #add-to-cart:hover{
+            background-color: rgb(246, 181, 192);
+            border: 0.1rem solid black;
+            
+        }
+        img{
+            border: 0.1rem solid rgb(245, 135, 153);
+        }
+        img:hover{
+            box-shadow: white 0px 10px 32px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-details">
+        <img id="product-image" src="" alt="Product Image">
+        <div id="details">
+            <h2 id="product-name">Product Name</h2>
+            <h3 id="product-price">Price</h3>
+            <h3 id="product-details">Details</h3>
+            <button id="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
